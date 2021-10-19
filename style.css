@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#log{
+    width: 100px;
+    position: absolute;
+    top: 2%;
+    left: 3%;
+}
+#banner{
+    background: linear-gradient( rgba(0,0,0,0.5) 50%, rgb(0, 0, 0)), url(./REAL.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.banner-text{
+    float: left;
+    text-align: center;
+    color: white;
+    padding-top: 280px;
+}
+.banner-text h2{
+    font-size: 60px;
+    float: left;
+}
+.banner-text p {
+    font-size: 20px;
+}
+.bn{
+    margin: auto 10px;
+    font-size: 20px;
+    border: 3px solid white;
+    padding: 0 10px;
+    background: white;
+    margin: 10px 14px;
+}
+
+#navbar{
+    width: 600px;
+    float: left;
+    height: 70px;
+    margin-left: -340px;
+    padding-top: 15px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    transition: 0.5s ease-in-out ;
+}
+ul li a:hover{
+    color: #ff7200;
+    
+}
+
+.sear{
+    width: 200px;
+    height: 20px;
+    float: left;
+    margin: 20px;
+    display: flex;
+    margin: 10px;
+    padding: 25px;
+    font-size: 10px;
+}
+.src{
+    width: 150px;
+    height: 20px;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.btn{
+    width: 150px;
+    height: 25px;
+    border: 2px solid black;
+    display: inline-block;
+    float: right;
+    font-size: 15px;
+   margin-top: -2px;
+}
+
